@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #titleName{
+            text-align:center;
+            color:black;
+        }
+        #vegetableSaladImage{
+            padding-left: 50%;
+        }
+        #benefits{
+            color:blueviolet;
+            text-align: center;
+        }
+        #benefitsParagraph{
+            color:brown;
+            text-align: center;
+        }
+        #steps{
+            color:blueviolet;
+            text-align: center;
+        }
+        #stepForVegetableSalad{
+            color:brown;
+            text-align: left;
+        }
+        #footerText{
+            color:brown;
+            text-align: center;
+        }
+    </style>
+    <title>veggies</title>
+</head>
+<body style="background-color: white;">
+    <div>
+        <div>
+            <h1 id="titleName">VEGETABLE SALAD</h1>
+            <img src="https://www.afarmgirlsdabbles.com/wp-content/uploads/2018/07/grilled-vegetable-salad_AFarmgirlsDabbles_AFD-5_sq.jpg" width="500px" height="400px" id="vegetableSaladImage">
+        </div>
+        <div>
+            <h2 id="benefits">Benefits of Vegetable Salad</h2>
+        </div>
+        <div>
+            <p id="benefitsParagraph">The nutritional value of salad greens depends on the variety. Those with red or darker green leaves are generally higher in nutrients and vitamins. 
+
+Rich in Vitamin A. Vitamin A plays an important role in eye health, cell division, immunity, growth, and reproduction. The daily recommended intake of Vitamin A is 2,330 to 3,000 IU (700 to 900 micrograms). 
+
+A 100-gram serving of romaine or red and green leaf lettuce gives you more than twice the amount of Vitamin A you need everyday. 
+
+Good source of Vitamin K.Vitamin K is important for blood clotting, helps build strong bones, and keeps your blood vessels healthy. Your body only stores small amounts of Vitamin K, so you need to get it from the foods you eat. Adults need about 90 to 120 micrograms of Vitamin K per day. 
+
+A 100-gram serving of romaine, butterhead, or red and green leaf lettuce contains more than 100 micrograms of Vitamin K. 
+
+Rich inphytonutrients. Salad greens contain these unique compounds that act as antioxidants. Antioxidants can help prevent chronic diseases. Red leaf lettuce in particular is high in antioxidants. ‌
+
+Escarole is listed as one of the top 100 richest food sources of polyphenols (another name for phytonutrients). Other salad greens on the list include curly endive, green leaf, and red leaf lettuce.‌
+
+May help protect your brain. Researchers studied 960 people with an average age of 81. They found that those who ate leafy green vegetables daily had better brain health. The rate of cognitive decline for those who ate the most leafy greens was equivalent to being 11 years younger.
+
+</p>
+        </div>
+        <div>
+            <h2 id="steps">Steps to make Vegetable Salad</h2>
+        </div>
+        <div>
+            <ul id="stepForVegetableSalad">
+                <li>Toast Nuts and Seeds.</li>
+                <li>Prep Veggies.</li>
+                <li>Make Lemon Vinaigrette.</li>
+                <li>Toss Vegetable Salad.</li>
+                <li>Toss all salad ingredients in a medium bowl.</li>
+                <li>Decorate the bowl.</li>
+            </ul>
+        </div>
+        <div>
+            <footer id="footertext">Vegetable salad>Fruit salad.</footer>
+        </div>
+    </div>
+</body>
+</html>

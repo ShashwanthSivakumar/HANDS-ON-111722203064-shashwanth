@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Fav Food</title>
+</head>
+<body bgcolor="white">
+    <div id="heading" align="center">
+     <h3 id="titleName">These are my favorite</h3>
+     <h1 id="titltName">food</h1>
+    <img src="https://images.squarespace-cdn.com/content/v1/53b839afe4b07ea978436183/1608506201082-GU22QYZJC5TWXRSY24RX/traditional-food-around-the-world-Travlinmad.jpg?format=750w" width="700" height="450" id="titleImage">
+    </div>
+<div style="background-color:white" align="center">
+<h3 id="favFood1">Lasagna</h3>
+<p id="foodDescription">Lasagne is a cheesy and meat-filled meal</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Lasagne_-_stonesoup.jpg" width="500" height="450" id="favFoodImage1">
+</div>
+  <div style="background-color:white" align="center">
+<h3 id="favFood2">Fried Chicken</h3>
+<p id="foodDescription2">Fried Chicken is fun</p>
+<img src="https://www.licious.in/blog/wp-content/uploads/2022/04/shutterstock_460012054-1-min-750x750.jpg" width="500" height="450" id="favFoodImage2">
+</div>
+<div style="background-color:white" align="center">
+<h3 id="favFood3">Grilled Fish</h3>
+<p id="foodDescription3">Grilled fish is da best</p>
+<img src="https://assets.epicurious.com/photos/57d0468623c691f13ac8c1f5/master/pass/grilled-fish.jpg" width="500" height="450" id="favFoodImage3">
+</div>
+</body>
+</html>

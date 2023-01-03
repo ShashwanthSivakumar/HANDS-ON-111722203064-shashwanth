@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="TitleName">Things people like about me</title>
+    <style>
+        body{
+            text-align: center;
+            color:white;
+            background-color: black;
+        }
+        #textBox1{
+            height:100px;
+            background-color: black;
+        }
+        #textBox2{
+            height: 100px;
+            background-color: black;
+        }
+        label{
+            font-size: 20px;
+        }
+        p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div style="background-image: url('https://www.incimages.com/uploaded_files/image/1920x1080/getty_522390562_274931.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100% ;">
+    <img src="" id="backgroundImage">
+            <h1>Things people like about me</h1>            
+        </div>
+        <div>
+            <form id="yourName">
+                <br>
+                <label for="yourName">Whats your name:</label>
+                <input type="text" id="textBox"><br>
+                <br>
+                <label id="field1" for="field1">Do you like me?</label>
+                <br>
+                <input type="text" id="textBox1">
+                <br>
+                <label for="textBox2">please like me</label>
+                <br>
+                <input type="text" id="textBox2">
+                <br>
+                <p>like me more?</p>
+                <input type="radio" id="yesMayBe">
+                <label for="yesMayBe">Yes</label>
+                <input type="radio" id="yesMayBe">
+                <label for="yesMayBe">No</label>
+                <br>
+                <p>do you wish to have me in your life</p>
+                <input type="radio" id="roadtrip">
+                <label for="roadtrip">Yes</label>
+                <input type="radio" id="roadtrip">
+                <label for="roadtrip">No</label>
+                <br>
+                <p>5.Which colour suits me?</p>
+                <input type="checkbox" id="bestColour">
+                <label for="bestColour">Black</label>
+                <input type="checkbox" id="bestColour">
+                <label for="bestcolour">Blue</label>
+                <input type="checkbox" id="bestColour">
+                <label for="bestColour">Red</label>
+                <input type="checkbox" id="bestColour">
+                <label for="bestColour">Green</label>
+            </form>
+            <br>
+        </div>
+    </div>
+</body>
+</html>

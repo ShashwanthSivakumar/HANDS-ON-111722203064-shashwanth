@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+
+    <div class="container">
+        <h1 id="titleName">NEO Studio</h1>
+        <h2 id="titleDescription">Professional Protography</h2>
+        <a onclick="myFunction()" id="viewWork">Our talents</a>
+    </div>
+    <div id="images" align="center">
+    <div class="image">
+        <img src="https://cdnb.artstation.com/p/assets/images/images/021/027/877/large/eliass-valters-sony-a7iii-shot-01-wireframe-2-0-00-00-00.jpg?1570094568" alt="sony a7" id="backGroundImage" >
+    </div>
+    <div class="image">
+        <h3 id="ourWork">Portfolio</h3>
+        <img src="https://tse3.explicit.bing.net/th?id=OIP.5YuFCyE9Dw368Z1BfxYM1gHaHa&pid=Api&P=0" alt="pic2" id="firstImage" >
+    </div>
+    <div class="image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Saul_Goodman.jpg" alt="hahasaul" id="secondImage"><p id="firstImageName"> Portrait Photography </p>
+        
+    </div>
+    <div class="image">
+        <img src="https://www.socwall.com/images/wallpapers/36339-1920x1200.jpg" alt="paris is cool" id="thirdImage">
+        <p id="secondImageName">City Scape</p>
+    </div>
+    <div class="image">
+        <img src="https://images.livemint.com/img/2022/08/01/600x338/Cat-andriyko-podilnyk-RCfi7vgJjUY-unsplash_1659328989095_1659328998370_1659328998370.jpg" alt="hahah cute cat" id="fourthImage">
+        <p id="thirdImageName" style="bold">Animal Photography</p>
+    </div>
+</div>
+</div>
+
+</body>
+<script>
+    function myFunction(){
+        var x = document.getElementById("images");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+</html>
